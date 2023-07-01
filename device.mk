@@ -7,7 +7,10 @@
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# API levels
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+# Shipping API levels
 PRODUCT_SHIPPING_API_LEVEL := 33
 
 # Soong namespaces
