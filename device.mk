@@ -70,6 +70,9 @@ PRODUCT_PACKAGES += \
 # Shipping API levels
 PRODUCT_SHIPPING_API_LEVEL := 33
 
+PRODUCT_PACKAGES += \
+    init.recovery.mt6877.rc
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
