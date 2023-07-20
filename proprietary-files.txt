@@ -1,5 +1,9 @@
 # Unpinned blobs from sys_mssi_64_cn_armv82-user 13 TP1A.220905.001 1701833575510 release-keys
 
+# AEE
+vendor/lib/libaedv.so
+vendor/lib64/libaedv.so
+
 # Display
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
