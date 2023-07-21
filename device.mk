@@ -246,6 +246,10 @@ PRODUCT_SHIPPING_API_LEVEL := 33
 PRODUCT_PACKAGES += \
     init.recovery.mt6877.rc
 
+# Secure Element
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.2.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
     libsensorndkbridge \
