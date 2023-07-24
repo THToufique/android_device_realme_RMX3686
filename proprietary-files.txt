@@ -1638,6 +1638,41 @@ vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml
 vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Vodafone.xml
 vendor/etc/gnss/agps_profiles_conf2.xml
 
+# Radio (IMS)
+vendor/bin/hw/vtservice_hidl
+vendor/etc/init/init.vtservice_hidl.rc
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
+# Radio (MTK-IMS)
+-system/system/framework/mediatek-common.jar:system/framework/mediatek-common.jar
+-system/system/framework/mediatek-framework.jar:system/framework/mediatek-framework.jar
+-system/system/framework/mediatek-ims-base.jar:system/framework/mediatek-ims-base.jar
+-system/system/framework/mediatek-ims-common.jar:system/framework/mediatek-ims-common.jar
+-system/system/framework/mediatek-ims-extension-plugin.jar:system/framework/mediatek-ims-extension-plugin.jar
+-system/system/framework/mediatek-telecom-common.jar:system/framework/mediatek-telecom-common.jar
+-system/system/framework/mediatek-telephony-base.jar:system/framework/mediatek-telephony-base.jar
+-system/system/framework/mediatek-telephony-common.jar:system/framework/mediatek-telephony-common.jar
+system/system/bin/vtservice
+system/system/etc/init/init.vtservice.rc
+system/system/lib64/libcomutils.so
+system/system/lib64/libimsma_adapt.so
+system/system/lib64/libimsma_rtp.so
+system/system/lib64/libimsma_socketwrapper.so
+system/system/lib64/libimsma.so
+system/system/lib64/libmtk_vt_service.so
+system/system/lib64/libmtk_vt_wrapper.so
+system/system/lib64/libsignal.so
+system/system/lib64/libsink.so
+system/system/lib64/libsource.so
+system/system/lib64/libvcodec_cap.so
+system/system/lib64/libvcodec_capenc.so
+system/system/lib64/libvt_avsync.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+-system/system/priv-app/ImsService/ImsService.apk:system/priv-app/ImsService/ImsService.apk
+system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
+
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.trustonic
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
@@ -1820,6 +1855,7 @@ vendor/lib/libipsec_ims_shr.so
 vendor/lib/librcs_volte_core.so
 vendor/lib/vendor.mediatek.hardware.rcs@2.0.so
 vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/vendor.mediatek.hardware.clientapi@1.0.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
