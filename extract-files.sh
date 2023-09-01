@@ -62,6 +62,12 @@ function blob_fixup {
         vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service)
             "$PATCHELF" --replace-needed "android.hardware.power-V2-ndk_platform.so" "android.hardware.power-V2-ndk.so" "$2"
             ;;
+        vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc)
+            sed -i 's/start/enable/' "$2"
+            ;;
+        vendor/firmware/txpowerctrl_*)
+            sed -i 's/\t//g' "$2"
+            ;;
         vendor/lib*/hw/vendor.mediatek.hardware.pq@2.15-impl.so)
             "$PATCHELF" --replace-needed "libutils.so" "libutils-v32.so" "$2"
             ;;
