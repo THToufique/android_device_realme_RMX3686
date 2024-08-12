@@ -81,12 +81,12 @@ static struct effect_stream effects[] = {
 // Array containing the paths to fifo data in vendor.
 // The position in the array must match the effect id.
 static const std::string fifo_data_paths[] = {
-    "/vendor/firmware/seq_bin_wav1.bin",
-    "/vendor/firmware/seq_bin_wav2.bin",
-    "/vendor/firmware/seq_bin_wav3.bin",
-    "/vendor/firmware/seq_bin_wav4.bin",
-    "/vendor/firmware/seq_bin_wav5.bin",
-    "/vendor/firmware/seq_bin_wav6.bin",
+    "/vendor/firmware/aw8697_haptic.bin",
+    "/vendor/firmware/aw8697_haptic_170.bin",
+    "/vendor/firmware/aw8697_haptic_170_soft.bin",
+    "/vendor/firmware/aw8697_haptic_235.bin",
+    "/vendor/firmware/aw8697_haptic_235_19161.bin",
+    "/vendor/firmware/awinic_haptic_gun_params.bin",
 };
 
 // Function to parse custom fifo data from vendor
