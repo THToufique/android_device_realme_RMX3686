@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     FrameworksResOverlayRMX3686 \
     SystemUIOverlayRMX3686 \
+    SettingsOverlayRMX3686 \
     WifiResOverlayRMX3686
 
 DEVICE_PACKAGE_OVERLAYS += \
