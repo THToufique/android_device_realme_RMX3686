@@ -101,3 +101,6 @@ my_manifest                       /mnt/vendor/my_manifest ext4  ro,barrier=1 wai
 /dev/block/by-name/dtbo           /dtbo               emmc      defaults    defaults
 /dev/block/by-name/otp            /otp                emmc      defaults    defaults
 /dev/block/by-name/vbmeta         /vbmeta             emmc      defaults    defaults
+
+# ZRAM
+/dev/block/zram0                  none                swap      defaults    zramsize=55%
