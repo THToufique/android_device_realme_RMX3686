@@ -205,6 +205,7 @@ PRODUCT_PACKAGES += \
     SystemUIOverlayRMX3686 \
     SettingsOverlayRMX3686 \
     TelephonyOverlayRMX3686 \
+    TetheringResOverlayRMX3686 \
     WifiResOverlayRMX3686
 
 
