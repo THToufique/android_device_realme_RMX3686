@@ -202,6 +202,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayRMX3686 \
     FrameworksResOverlayRMX3686 \
+    SettingsProviderOverlayRMX3686 \
     SystemUIOverlayRMX3686 \
     SettingsOverlayRMX3686 \
     TelephonyOverlayRMX3686 \
