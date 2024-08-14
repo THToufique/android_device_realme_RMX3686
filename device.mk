@@ -197,11 +197,13 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    CarrierConfigOverlayRMX3686 \
     FrameworksResOverlayRMX3686 \
     SystemUIOverlayRMX3686 \
     SettingsOverlayRMX3686 \
     TelephonyOverlayRMX3686 \
     WifiResOverlayRMX3686
+
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
