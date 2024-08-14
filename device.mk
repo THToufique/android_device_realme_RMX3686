@@ -238,6 +238,7 @@ PRODUCT_PACKAGES += \
     init.mt6877.usb.rc \
     init.project.rc \
     init.sensor_2_0.rc \
+    init.target.rc \
     ueventd.mt6877.rc
 
 # Shipping API levels
