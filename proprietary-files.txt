@@ -529,6 +529,45 @@ vendor/lib64/vendor.mediatek.hardware.pq@2.7.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.8.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.9.so
 
+# Fingerprint
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
+odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
+odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
+odm/lib/hw/fingerprint.goodix_G2.default.so
+odm/lib/hw/fingerprint.goodix_G3.default.so
+odm/lib/hw/fingerprint.goodix_G5.default.so
+odm/lib/hw/fingerprint.goodix_G6.default.so
+odm/lib/hw/fingerprint.goodix_G7.default.so
+odm/lib/anc.hal.so
+odm/lib/libgf_hal_G2.so
+odm/lib/libgf_hal_G3.so
+odm/lib/libgf_hal_G5.so
+odm/lib/libgf_hal_G6.so
+odm/lib/libgf_hal_G7.so
+odm/lib/libolc_vnd.so
+odm/lib/librpmbengclient.so
+odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib/vendor.oplus.hardware.olc@2.0.so
+odm/lib/vendor.oplus.hardware.performance@1.0.so
+odm/lib64/hw/fingerprint.focaltech.default.so
+odm/lib64/hw/fingerprint.goodix_G2.default.so
+odm/lib64/hw/fingerprint.goodix_G3.default.so
+odm/lib64/hw/fingerprint.goodix_G5.default.so
+odm/lib64/hw/fingerprint.goodix_G6.default.so
+odm/lib64/hw/fingerprint.goodix_G7.default.so
+odm/lib64/anc.hal.so
+odm/lib64/libgf_hal_G2.so
+odm/lib64/libgf_hal_G3.so
+odm/lib64/libgf_hal_G5.so
+odm/lib64/libgf_hal_G6.so
+odm/lib64/libgf_hal_G7.so
+odm/lib64/libolc_vnd.so
+odm/lib64/librpmbengclient.so
+odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so
+odm/lib64/vendor.oplus.hardware.olc@2.0.so
+odm/lib64/vendor.oplus.hardware.performance@1.0.so
+
 # Fuelgauge
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
