@@ -172,7 +172,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.oplus
+    android.hardware.light-service.RMX3686
 
 # Linker
 PRODUCT_COPY_FILES += \
