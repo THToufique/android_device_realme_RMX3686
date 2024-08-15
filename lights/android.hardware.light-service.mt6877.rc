@@ -1,4 +1,4 @@
-service vendor.light-hal-2-0.mt6877 /vendor/bin/hw/android.hardware.light-service.mt6877
+service vendor.light-default /vendor/bin/hw/android.hardware.light-service.mt6877
     class hal
     user system
     group system
