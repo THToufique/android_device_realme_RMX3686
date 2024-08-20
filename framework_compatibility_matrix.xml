@@ -67,14 +67,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.mediatek.hardware.bluetooth.audio</name>
-        <version>2.0-2</version>
-        <interface>
-            <name>IBluetoothAudioProvidersFactory</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.camera.atms</name>
         <version>1.0</version>
         <interface>
@@ -242,4 +234,49 @@
             <instance>default</instance>
         </interface>
     </hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.hostapd</name>
+    <interface>
+        <name>IHostapd</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>android.hardware.wifi.supplicant</name>
+    <interface>
+        <name>ISupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>android.hardware.wifi</name>
+    <version>1.0-6</version>
+    <interface>
+        <name>IWifi</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="aidl" optional="true">
+    <name>vendor.oplus.hardware.wifi.supplicant</name>
+    <interface>
+        <name>IOplusSupplicant</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.trustonic.tee.tui</name>
+    <version>1.0</version>
+    <interface>
+        <name>ITui</name>
+        <instance>default</instance>
+    </interface>
+</hal>
+<hal format="hidl" optional="true">
+    <name>vendor.trustonic.tee</name>
+    <version>1.0-1</version>
+    <interface>
+        <name>ITee</name>
+        <instance>default</instance>
+    </interface>
+</hal>
 </compatibility-matrix>
