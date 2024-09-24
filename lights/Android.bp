@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.light-service.RMX3686",
-    init_rc: ["android.hardware.light-service.RMX3686.rc"],
-    vintf_fragments: ["android.hardware.light-service.RMX3686.xml"],
+    name: "android.hardware.light-service.RMX3741",
+    init_rc: ["android.hardware.light-service.RMX3741.rc"],
+    vintf_fragments: ["android.hardware.light-service.RMX3741.xml"],
     relative_install_path: "hw",
     srcs: [
         "main.cpp",

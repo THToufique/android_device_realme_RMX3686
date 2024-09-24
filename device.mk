@@ -194,7 +194,7 @@ PRODUCT_PACKAGES += \
 
 # Light
 PRODUCT_PACKAGES += \
-    android.hardware.light-service.RMX3686
+    android.hardware.light-service.RMX3741
 
 # Linker
 PRODUCT_COPY_FILES += \
@@ -225,14 +225,14 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    CarrierConfigOverlayRMX3686 \
-    FrameworksResOverlayRMX3686 \
-    SettingsProviderOverlayRMX3686 \
-    SystemUIOverlayRMX3686 \
-    SettingsOverlayRMX3686 \
-    TelephonyOverlayRMX3686 \
-    TetheringResOverlayRMX3686 \
-    WifiResOverlayRMX3686
+    CarrierConfigOverlayRMX3741 \
+    FrameworksResOverlayRMX3741 \
+    SettingsProviderOverlayRMX3741 \
+    SystemUIOverlayRMX3741 \
+    SettingsOverlayRMX3741 \
+    TelephonyOverlayRMX3741 \
+    TetheringResOverlayRMX3741 \
+    WifiResOverlayRMX3741
 
 
 DEVICE_PACKAGE_OVERLAYS += \
@@ -338,7 +338,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
     android.hardware.sensors@2.1.vendor \
     android.frameworks.sensorservice@1.0.vendor \
-    android.hardware.sensors@2.1-service.RMX3686-multihal
+    android.hardware.sensors@2.1-service.RMX3741-multihal
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -367,7 +367,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service.RMX3686
+    vendor.qti.hardware.vibrator.service.RMX3741
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vibrator/excluded-input-devices.xml:$(TARGET_COPY_OUT_VENDOR)/etc/excluded-input-devices.xml
@@ -387,4 +387,4 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/realme/RMX3686/RMX3686-vendor.mk)
+$(call inherit-product, vendor/realme/RMX3741/RMX3686-vendor.mk)

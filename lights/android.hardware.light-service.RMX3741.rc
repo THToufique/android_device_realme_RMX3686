@@ -1,4 +1,4 @@
-service vendor.light-default /vendor/bin/hw/android.hardware.light-service.RMX3686
+service vendor.light-default /vendor/bin/hw/android.hardware.light-service.RMX3741
     class hal
     user system
     group system

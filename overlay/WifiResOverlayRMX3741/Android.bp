@@ -5,8 +5,8 @@
 //
 
 runtime_resource_overlay {
-    name: "CarrierConfigOverlayRMX3686",
+    name: "WifiResOverlayRMX3741",
     sdk_version: "current",
-    product_specific: true,
-    aaptflags: ["--keep-raw-values"]
+    resource_dirs: ["res"],
+    vendor: true,
 }

@@ -5,8 +5,8 @@
 //
 
 runtime_resource_overlay {
-    name: "TetheringResOverlayRMX3686",
+    name: "CarrierConfigOverlayRMX3741",
     sdk_version: "current",
-    resource_dirs: ["res"],
-    vendor: true,
+    product_specific: true,
+    aaptflags: ["--keep-raw-values"]
 }

@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter RMX3686,$(TARGET_DEVICE)),)
+ifneq ($(filter RMX3741,$(TARGET_DEVICE)),)
 $(call add-radio-file,dynamic-remove-oplus)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

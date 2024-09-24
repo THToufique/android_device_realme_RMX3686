@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/RMX3686
+DEVICE_PATH := device/realme/RMX3741
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
@@ -86,9 +86,12 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
-TARGET_KERNEL_SOURCE := kernel/realme/RMX3686
+TARGET_KERNEL_SOURCE := kernel/realme/RMX3741
 TARGET_KERNEL_CONFIG := RM6877_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+
+# Assertation
+TARGET_OTA_ASSERT_DEVICE := RMX3741.RE58B6L1,oplus,ossi
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -134,7 +137,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools.py
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2023-12-05
+VENDOR_SECURITY_PATCH := 2024-08-05
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
@@ -174,4 +177,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
-include vendor/realme/RMX3686/BoardConfigVendor.mk
+include vendor/realme/RMX3741/BoardConfigVendor.mk

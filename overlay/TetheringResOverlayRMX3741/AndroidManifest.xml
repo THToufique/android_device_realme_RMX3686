@@ -5,11 +5,12 @@
   SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.frameworksres.overlay.RMX3686">
+    package="com.android.networkstack.tethering.RMX3741">
 
     <application android:hasCode="false" />
     <overlay
-      android:targetPackage="android"
+      android:targetPackage="com.android.networkstack.tethering"
+      android:targetName="TetheringConfig"
       android:isStatic="true"
-      android:priority="1"/>
+      android:priority="0"/>
 </manifest>
